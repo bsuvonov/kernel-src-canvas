@@ -67,7 +67,7 @@ against /home/me/src/linux/mm/vmscan.c, preserving verified content.
 An Obsidian vault is an ordinary directory. Copy the generated file into the vault, quoting the path because its name contains a space:
 
 ```bash
-cp /home/me/canvases/vmscan.canvas "$HOME/Obsidian Vault/"
+cp /home/me/canvases/vmscan.canvas "$HOME/Obsidian\ Vault/"
 ```
 
 Launch Obsidian using the command provided by your installation, for example:
@@ -83,7 +83,7 @@ flatpak run md.obsidian.Obsidian
 Open **Obsidian Vault**, then select `vmscan.canvas` in the Files pane. When the vault is already open, the copied canvas normally appears there automatically. You can also ask the skill to write directly into the vault:
 
 ```text
-Output: /home/me/Obsidian Vault/vmscan.canvas
+Output: /home/me/Obsidian\ Vault/vmscan.canvas
 ```
 
 ## What it looks like
