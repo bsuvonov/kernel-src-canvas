@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kernel Source Canvas"
+  short_description: "Create verified Linux kernel call-graph canvases"
+  default_prompt: "Use $kernel-src-canvas to create and validate an Obsidian call-graph canvas for the requested Linux kernel C source file."
